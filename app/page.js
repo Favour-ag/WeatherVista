@@ -1,7 +1,9 @@
+import GoogleSignIn from "./_components/GoogleSignIn";
+
 export default function Home() {
   return (
     <div>
-      <h1>Hey</h1>
+      <GoogleSignIn />
     </div>
   );
 }
